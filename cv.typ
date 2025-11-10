@@ -3,7 +3,7 @@
   date: datetime.today(),
   description: "Curriculum Vitae",
   keywords: ("CV", "cv", "Curriculum Vitae", "Fjalar", "Fjalar Högnason Loodberg"),
-  title: "CV"
+  title: "Fjalar Högnason Loodberg"
 )
 
 // ==================== Formatting and functions ====================
@@ -92,14 +92,19 @@
 
 
 
-
-#title[Fjalar Högnason Loodberg]
-
-#align(center)[
-  === #href("linkedin.com/in/fjalarhl") | #email("fjalarhognason@gmail.com")
-]
-
-
+#grid(
+  columns: (80%, 20%),
+  rows: (auto, auto),
+  row-gutter: 10pt,
+  title(),
+  grid.cell(
+    rowspan: 2,
+    scale(160%, block(clip: true, radius: 8pt, image("headshot.jpg", width: 30%)))
+  ),
+  align(center)[
+    === #href("linkedin.com/in/fjalarhl") | #email("fjalarhognason@gmail.com")
+  ]
+)
 
 = Education
   === #mystruct("MSc. Engineering, Nanoscience", "Sep 2019 - Jun 2024", "Lund University")
