@@ -134,40 +134,40 @@
     - No dependencies besides for RNG
     - Following the famous Raytracing in one weekend book series, translated to idiomatic Rust
   - Interactive 3D rendering engine using raymarching and the WGPU Rust crate based on the brand new WebGPU standard
-    - Using a bleeding-edge API
+    - Using a bleeding-edge API in Rust
     - GPU-accelerated 3D rendering engine similar to raytracing
 
-  === #mystruct("Fractal Explorer", "C++/Rust", href("gitlab.com/Fjalar/bittermandel"))
+  === #mystruct("Fractal Explorer", "C++, Rust", href("gitlab.com/Fjalar/bittermandel"))
   - Explorable software-rendered fractals using the SDL2 framework
   - Later re-implemented in Rust, using hardware acceleration and the Bevy game engine
 
-  === #mystruct("Web Games", "Rust", (href("fjalar.github.io/2048"), href("fjalar.github.io/fairflips")))
-  - Simple games using the Bevy game engine in Rust, available online through continuous deployment
+  === #mystruct("Web Games", "Rust, GitHub Actions", (href("fjalar.github.io/2048"), href("fjalar.github.io/fairflips")))
+  - Games written using the Bevy game engine in Rust, available online through continuous deployment
   - Some of my work became an open source contribution to the Bevy project
 
 
 
 #let course(name, credits) = {
-  [#name #h(1fr) #(credits) ECTS #h(10%)]
+  [#name #h(1fr) #(credits) ECTS #h(12.5%)]
 }
 
 #grid(
   columns: (1fr, 1fr),
   text()[= Select Courses
-    - #course("Electromagnetics and Electronics", 7.5)
-    - #course("Programming - First Course (Java)", 7.5)
-    - #course("Programming - Second Course (Java)", 7.5)
-    - #course("Concurrent Programming (Java)",  7.5)
-    - #course("C++ Programming", 7.5)
-    - #course("Efficient C", 7.5)
-    - #course("Applied Machine Learning (Python)", 7.5)
+    #course("Electromagnetics and Electronics", 7.5)\
+    #course("Programming - First Course (Java)", 7.5)\
+    #course("Programming - Second Course (Java)", 7.5)\
+    #course("Concurrent Programming (Java)",  7.5)\
+    #course("C++ Programming", 7.5)\
+    #course("Efficient C", 7.5)\
+    #course("Applied Machine Learning (Python)", 7.5)\
 
 
 
   ],
   [= Skills
-    - #text(weight: "bold")[Programming languages:] Java, C++, C, Rust, Python, MATLAB
-    - #text(weight: "bold")[Office/writing:] LaTeX, Word, Excel
-    - #text(weight: "bold")[Languages:] Swedish (C2), English (C2), German (B2), Icelandic (A2)
+    *Programming languages:* Java, C++, C, Rust, Python, MATLAB\
+    *Office/writing:* LaTeX, Typst, Word, Excel\
+    *Languages:* Swedish (C2), English (C2), German (B2), Icelandic (A2)\
   ]
 )
