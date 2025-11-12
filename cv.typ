@@ -20,6 +20,8 @@
 
 #set page(margin: 24pt)
 
+#set par(leading: 0.5em)
+
 #set text(font: "Raleway",
   size: 10pt,)
 
@@ -67,6 +69,10 @@
       )
     ],
   )
+}
+
+#let course(name, credits) = {
+  [#name #h(1fr) #(credits) ECTS #h(7.5%)]
 }
 
 // https://stackoverflow.com/a/77575725
@@ -127,7 +133,7 @@
     - Cemented my own programming knowledge
 
   === #mystruct("Summer Research Project", "Jun 2023 - Aug 2023", "Lund University")
-    - Studied multiple Niobium- & Tantalum-based compound nanoparticles using Transmission Electron Microscopy & X-ray Energy Dispersive Spectroscopy
+    - Studied nanoparticles of multiple novel metal compounds using transmission electron microscopy & associated techniques
     - Data processing using MATLAB & Python, scientific writing in LaTeX
 
 
@@ -139,7 +145,7 @@
     - No dependencies besides for RNG
     - Following the famous Raytracing in one weekend book series, translated to idiomatic Rust
   - Interactive 3D rendering engine using raymarching and the WGPU Rust crate based on the brand new WebGPU standard
-    - Using a bleeding-edge API in Rust
+    - Using a modern-style graphics API in Rust
     - GPU-accelerated 3D rendering engine similar to raytracing
 
   === #mystruct("Fractal Explorer", "C++, Rust", href("gitlab.com/Fjalar/bittermandel"))
@@ -150,21 +156,15 @@
   - Games written using the Bevy game engine in Rust, available online through continuous deployment
   - Some of my work became an open source contribution to the Bevy project
 
-
-
-#let course(name, credits) = {
-  [#name #h(1fr) #(credits) ECTS #h(12.5%)]
-}
-
 #grid(
   columns: (1fr, 1fr),
   text()[= Select Courses
-    #course("Electromagnetics and Electronics", 7.5)\
     #course("Programming - First Course (Java)", 7.5)\
     #course("Programming - Second Course (Java)", 7.5)\
     #course("Concurrent Programming (Java)",  7.5)\
     #course("C++ Programming", 7.5)\
     #course("Efficient C", 7.5)\
+    #course("Memory Technology for Machine Learning", 7.5)\
     #course("Applied Machine Learning (Python)", 7.5)\
 
 
