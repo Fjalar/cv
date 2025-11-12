@@ -36,10 +36,10 @@
 #show link: set text(font: "DejaVu Sans Mono")
 #show link: set text(1em)
 
-#show heading.where(depth: 1): set text(midorigreen)
+#show heading.where(depth: 1): set text(midorigreen, size: 1.2em)
 
 #let href(part) = {
-  let full_dest = "https://www." + part
+  let full_dest = "https://" + part
   link(full_dest, part)
 }
 
@@ -140,17 +140,18 @@
 
 = Personal Projects
 
-  === #mystruct("Raytracing/raymarching", "Rust", (href("gitlab.com/Fjalar/raymarching"), href("github.com/fjalar/weekend-rt")))
+  === #mystruct("Raytracing/raymarching", "Rust, WGSL", (href("gitlab.com/Fjalar/raymarching"), href("github.com/fjalar/weekend-rt")))
   - Offline software raytracer
     - No dependencies besides for RNG
+    - Manual texture parsing and output serialization
     - Following the famous Raytracing in one weekend book series, translated to idiomatic Rust
-  - Interactive 3D rendering engine using raymarching and the WGPU Rust crate based on the brand new WebGPU standard
-    - Using a modern-style graphics API in Rust
+  - Interactive 3D raymarcher
+    - Using the modern Rust graphics library WGPU, along with the WGSL shading language
     - GPU-accelerated 3D rendering engine similar to raytracing
 
-  === #mystruct("Fractal Explorer", "C++, Rust", href("gitlab.com/Fjalar/bittermandel"))
-  - Explorable software-rendered fractals using the SDL2 framework
-  - Later re-implemented in Rust, using hardware acceleration and the Bevy game engine
+  === #mystruct("Fractal Explorer", "C++, Rust", (href("gitlab.com/Fjalar/mandel"), href("gitlab.com/Fjalar/bittermandel")))
+  - Explorable software-rendered fractals using the SDL2 framework in C++
+  - Later re-implemented in Rust using the Bevy game engine, the egui UI library, and GPU acceleration
 
   === #mystruct("Web Games", "Rust, GitHub Actions", (href("fjalar.github.io/2048"), href("fjalar.github.io/fairflips")))
   - Games written using the Bevy game engine in Rust, available online through continuous deployment
