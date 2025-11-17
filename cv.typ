@@ -134,7 +134,7 @@
 
   === #mystruct("Summer Research Project", "Jun 2023 - Aug 2023", "Lund University")
     - Studied nanoparticles of multiple novel metal compounds using transmission electron microscopy & associated techniques
-    - Data processing using MATLAB & Python, scientific writing in LaTeX
+    - Data processing using Python & MATLAB, scientific writing in LaTeX
 
 
 
@@ -173,7 +173,7 @@
   ],
   [= Skills
     *Programming languages:* Java, C++, C, Rust, Python, MATLAB\
-    *Office/writing:* LaTeX, Typst, Word, Excel\
+    *Tools:* Git, GitHub CI/CD, LaTeX, Typst, Word, Excel\
     *Languages:* Swedish (C2), English (C2), German (B2), Icelandic (A2)\
   ]
 )
