@@ -159,7 +159,7 @@
 
 #grid(
   columns: (1fr, 1fr),
-  text()[= Select Courses
+  [= Select Courses
     #course("Programming - First Course (Java)", 7.5)\
     #course("Programming - Second Course (Java)", 7.5)\
     #course("Concurrent Programming (Java)",  7.5)\
@@ -173,7 +173,9 @@
   ],
   [= Skills
     *Programming languages:* Java, C++, C, Rust, Python, MATLAB\
-    *Tools:* Git, GitHub CI/CD, LaTeX, Typst, Word, Excel\
+
+    *Tools:* Linux, Git, GitHub CI/CD, LaTeX, Typst, Word, Excel\
+
     *Languages:* Swedish (C2), English (C2), German (B2), Icelandic (A2)\
   ]
 )
