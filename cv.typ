@@ -51,10 +51,18 @@ I am a recent graduate, excited to start my career as an engineer. My education 
   // == MSc. Engineering, Engineering Nanoscience #h(1fr) Sep 2019 - Jun 2024
   // === #h(1fr) Lund University
 
-    A deeply intersectional program, covering chemistry, physics, biology, electronics, often a focus on scientific research. I chose to specialization in materials chemistry and nanophysics, and wrote my master's thesis on electron microscopy on metal alloys using a unique instrument at Lund University. I also did a summer research project using the same instrument in the summer of 2023. Additionally, I took as many elective programming courses as my time would allow, in languages such as #monospace("Java"), #monospace("C++"), #monospace("C"), #monospace("Python"), and #monospace("MATLAB").
+    A deeply intersectional program, covering chemistry, physics, biology, electronics, often a focus on scientific research. I chose to specialization in materials chemistry and nanophysics, and wrote my master's thesis on electron microscopy on metal alloys using a unique instrument at Lund University. Additionally, I took as many elective programming courses as my time would allow, in languages such as #monospace("Java"), #monospace("C++"), #monospace("C"), #monospace("Python"), and #monospace("MATLAB").
 
-  == #cv_entry("Teacher's Assistant, Programming", "Jan 2022 - Jun 2023", "Lund University")
-    For three semesters, I supervised study hall and lab sessions for other students in multiple Java programming courses. I also graded student assignments, which helped me develop my pedagogical skills, as well as cement my own programming knowledge.
+
+= Experience
+== #cv_entry("Teacher's Assistant, Programming", "Jan 2022 - Jun 2023", "Lund University")
+  For three semesters, I supervised study hall and lab sessions for other students in multiple Java programming courses. I also graded student assignments, which helped me cement my own programming knowledge.
+== #cv_entry("Summer Research Project", "Jun 2023 - Aug 2023", "Lund University")
+  I spent the summer of 2023 researching metal alloys using electron microscopy. During this project, I learned to work independently, and to effectively communicate my work using data visualization.
+
+= Programming Projects
+I enjoy programming in my spare time, and have a number of projects viewable on #fa-icon("github") #link("https://github.com/Fjalar", "GitHub") and #fa-icon("gitlab") #link("https://gitlab.com/Fjalar", "GitLab"). Some topics that have caught my eye are 3D graphics and raytracing, GPU acceleration, continuous deployment using GitHub Actions, and game development. Some highlights include a 3D #link("https://gitlab.com/Fjalar/raymarching", "raymarching engine") written in Rust, a #link("https://gitlab.com/Fjalar/mandel", "fractal explorer") written in C++, and a few web games #link("https://fjalar.github.io/2048", "(1)") #link("https://fjalar.github.io/fairflips", "(2)") written in Rust and deployed through GitHub Actions. I have also participated in Game Jams, where a small group of volunteers develop a game in a short amount of time, the most recent producing a #link("https://henkehedstrom.itch.io/clown-escape", "game in Godot").
+
 
 = Student Activities
 
@@ -70,12 +78,11 @@ I am a recent graduate, excited to start my career as an engineer. My education 
   == #cv_entry("Active Member", "Dec 2019 - Jun 2024", "Electronics Hackerspace")
   I was an active member of an electronics hackerspace during most of my studies, where students could come and solder, 3D print, make circuit boards, and discuss their projects with other students.
 
-= Programming Projects
-I enjoy programming in my spare time, and have a number of projects viewable on #fa-icon("github") #link("https://github.com/Fjalar", "GitHub") and #fa-icon("gitlab") #link("https://gitlab.com/Fjalar", "GitLab"). Some topics that have caught my eye are 3D graphics and raytracing, GPU acceleration, continuous deployment using GitHub Actions, and game development. Some highlights include a 3D #link("https://gitlab.com/Fjalar/raymarching", "raymarching engine") written in Rust, a #link("https://gitlab.com/Fjalar/mandel", "fractal explorer") written in C++, and a few web games #link("https://fjalar.github.io/2048", "(1)") #link("https://fjalar.github.io/fairflips", "(2)") written in Rust and deployed through GitHub Actions. I have also participated in Game Jams, where a small group of volunteers develop a game in a short amount of time, the most recent producing a #link("https://henkehedstrom.itch.io/clown-escape", "game in Godot").
+#line(length : 100%, stroke : 2pt + midorigreen)
 
 #grid(
   columns: (1fr, 1fr),
-  [= Select Courses
+  [= Courses
     #course("Concurrent Programming",  7.5)\
     #course("C++ Programming", 7.5)\
     #course("Efficient C", 7.5)\

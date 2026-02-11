@@ -34,8 +34,8 @@
     ),
     align(right)[#grid(
         row-gutter: 5pt,
-        second,
         text(0.8em)[
+          #second,
             #if type(third) == array {
               for e in third {
                 e + "\n"
