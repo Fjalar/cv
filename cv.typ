@@ -53,6 +53,27 @@ I am a recent graduate, excited to start my career as an engineer. My education 
 
     A deeply intersectional program, covering chemistry, physics, biology, electronics, often a focus on scientific research. I chose to specialization in materials chemistry and nanophysics, and wrote my master's thesis on electron microscopy on metal alloys using a unique instrument at Lund University. Additionally, I took as many elective programming courses as my time would allow, in languages such as #monospace("Java"), #monospace("C++"), #monospace("C"), #monospace("Python"), and #monospace("MATLAB").
 
+  == Courses
+    #grid(
+      columns: (1fr, 1fr),
+      [
+          #course("Concurrent Programming",  7.5)\
+          #course("C++ Programming", 7.5)\
+          #course("Efficient C", 7.5)\
+      ],
+      [
+          #course("Memory Technology for Machine Learning", 7.5)\
+          #course("Applied Machine Learning", 7.5)\
+      ]
+    )
+    // [= Courses
+    //   #course("Concurrent Programming",  7.5)\
+    //   #course("C++ Programming", 7.5)\
+    //   #course("Efficient C", 7.5)\
+    //   #course("Memory Technology for Machine Learning", 7.5)\
+    //   #course("Applied Machine Learning", 7.5)\
+
+    // ],
 
 = Experience
 == #cv_entry("Teacher's Assistant, Programming", "Jan 2022 - Jun 2023", "Lund University")
@@ -75,24 +96,18 @@ I enjoy programming in my spare time, and have a number of projects viewable on 
   == #cv_entry("Sustainability Person", "Mar 2022 - May 2022", "Lundakarnevalen")
   As a member of the Ministry of Sustainability, I had the task of solving sustainability challenges in planning a \~500'000 visitor carnival called Lundakarnevalen, and was also in charge of waste disposal logistics for the events.
 
-  == #cv_entry("Active Member", "Dec 2019 - Jun 2024", "Electronics Hackerspace")
-  I was an active member of an electronics hackerspace during most of my studies, where students could come and solder, 3D print, make circuit boards, and discuss their projects with other students.
+  // == #cv_entry("Active Member", "Dec 2019 - Jun 2024", "Electronics Hackerspace")
+  // I was an active member of an electronics hackerspace during most of my studies, where students could come and solder, 3D print, make circuit boards, and discuss their projects with other students.
 
-#line(length : 100%, stroke : 2pt + midorigreen)
+#line(length: 100%, stroke: 2pt + midorigreen)
 
+= Skills
 #grid(
   columns: (1fr, 1fr),
-  [= Courses
-    #course("Concurrent Programming",  7.5)\
-    #course("C++ Programming", 7.5)\
-    #course("Efficient C", 7.5)\
-    #course("Memory Technology for Machine Learning", 7.5)\
-    #course("Applied Machine Learning", 7.5)\
-
-  ],
-  [= Skills
+  [
     *Programming languages:* \ #box_elements(([#fa-icon("java", size: 7.5pt) #monospace("Java")], monospace("C++"), monospace("C"), [#fa-icon("rust", size: 7.5pt) #monospace("Rust")], [#fa-icon("python", size: 7.5pt) #monospace("Python")], monospace("MATLAB")))\
-
+  ],
+  [
     *Tools:* \ #box_elements(([#fa-linux(size: 7.5pt) Linux], [#fa-git-alt(size: 7.5pt) git], "GitHub CI/CD", "LaTeX", "Typst"))\
   ]
 )
