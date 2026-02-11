@@ -42,7 +42,7 @@
 
 
 // Short description of myself
-A recent graduate, excited to develop my career as a software engineer. A lot of my spare time is spent programming, both on personal projects and contributing to others, and I have a passion for programming and computers.
+I am a recent graduate, excited to start my career as a software engineer. I have a passion for programming and technology, and spend a lot of my spare time contributing to open source and personal projects.
 
 = Education
   == #cv_entry("MSc. Engineering, Nanoscience", "Sep 2019 - Jun 2024", "Lund University")
@@ -67,10 +67,10 @@ A recent graduate, excited to develop my career as a software engineer. A lot of
 == #cv_entry("Teacher's Assistant, Programming", "Jan 2022 - Jun 2023", "Lund University")
   For three semesters, I supervised study hall and lab sessions for other students in multiple Java programming courses. I also graded student assignments, which allowed me to apply and cement my own programming knowledge.
 == #cv_entry("Summer Research Project", "Jun 2023 - Aug 2023", "Lund University")
-  I spent the summer of 2023 researching metal alloys using electron microscopy, which later layed the foundation of my master's thesis. During this project, I learned to work independently, and to effectively communicate my work using data visualization.
+  I spent the summer of 2023 researching metal alloys using electron microscopy, which later layed the foundation of my master's thesis. During this project, I learned to work independently, visualize data, and to effectively communicate and present my work.
 
 = Programming Projects
-I enjoy programming in my spare time, and have a number of projects viewable on #fa-icon("github") #link("https://github.com/Fjalar", "GitHub") and #fa-icon("gitlab") #link("https://gitlab.com/Fjalar", "GitLab"). Some topics that have caught my eye are 3D graphics and raytracing, GPU acceleration, continuous deployment using GitHub Actions, and game development. Some highlights include a 3D #link("https://gitlab.com/Fjalar/raymarching", "raymarching engine") written in Rust, a #link("https://gitlab.com/Fjalar/mandel", "fractal explorer") written in C++, and a few web games #link("https://fjalar.github.io/2048", "(1)") #link("https://fjalar.github.io/fairflips", "(2)") written in Rust and deployed through GitHub Actions. I have also participated in Game Jams, where a small group of volunteers develop a game in a short amount of time, the most recent producing a #link("https://henkehedstrom.itch.io/clown-escape", "game in Godot").
+I enjoy programming in my spare time, and have a number of projects viewable on #fa-icon("github") #link("https://github.com/Fjalar", "GitHub") and #fa-icon("gitlab") #link("https://gitlab.com/Fjalar", "GitLab"). Some topics that have caught my eye are 3D graphics and raytracing, GPU acceleration, continuous deployment using GitHub Actions, and game development. Some highlights include a 3D #link("https://gitlab.com/Fjalar/raymarching", "raymarching engine") written in Rust, a #link("https://gitlab.com/Fjalar/mandel", "fractal explorer") written in C++, and a few web games #link("https://fjalar.github.io/2048", "(1)") #link("https://fjalar.github.io/fairflips", "(2)") written in Rust and deployed through GitHub Actions. I have also participated in Game Jams, where a small group of volunteers develop a game in a short amount of time, the most recent producing a #link("https://henkehedstrom.itch.io/clown-escape", "game in Godot"). I have also made a few open source contributions to the Bevy game engine.
 
 
 = Student Activities
